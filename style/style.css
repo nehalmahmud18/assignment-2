@@ -12,7 +12,7 @@
     display: flex;
 
 }
-
+/* navbar styles */
 .navbar{
     margin: 0 140px;
 }
@@ -83,4 +83,42 @@ height: 50px;
     margin: auto;
     
     
+}
+/* banner styles */
+
+.banner{
+   
+    margin: 0 140px;
+    display: flex;
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 800;
+    width: 640px;
+}
+#empowring{
+    color: #FEA301;
+}
+#vision{
+    color: #01ACFD;
+}
+.banner-description{
+    font-weight: 300;
+    font-size: 25;
+}
+.banner-image{
+    padding: 20px;
+}
+.enroll-btn{
+    background-color: black;
+    color: white;
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    margin: auto;
+
 }
