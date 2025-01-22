@@ -14,7 +14,9 @@
 }
 /* navbar styles */
 .navbar{
-    margin: 0 140px;
+    margin-left:140px;
+    margin-right: 140px;
+    justify-content: space-around;
 }
 .nav-logo{
     display: flex;
@@ -37,6 +39,7 @@ height: 50px;
     width: 387px;
     margin: 0 auto;
     padding: 24px;
+    justify-content: space-around;
   }
 .menubar li{
     display: grid;
@@ -45,7 +48,17 @@ height: 50px;
     align-items: center;
     justify-content: space-around;
 }
-
+.three-menu{
+    display: hide;
+    visibility:hidden;
+    
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: auto;
+}
 .nav-items-1 a{
     
         text-decoration: none;
@@ -410,3 +423,159 @@ height: 50px;
   
 
 }
+/* footer styles */
+.footer{
+ margin-top: 80px;
+    width: 1439;
+    height: 519;
+    background-color: #01ACFD;
+    display: flex;
+
+}
+.footer-logo{
+    margin: 0 auto;
+    padding: 100px;
+    
+
+}
+.footer-menu{
+  color: #FFFFFF;
+  padding: 100px;
+}
+.footer-image{
+    display: flex;
+}
+.footbar li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+.nav-items{
+    text-decoration: none;
+        color: #FFFFFF;
+        font-size: 20px;
+    
+}
+.footer-description{
+    width: 400px;
+    height: 100px;
+}
+.contact{
+    padding: 100px;
+}
+.touch-title{
+    color: #FFFFFF;
+}
+.contact-image{
+    list-style: none;
+    display: flex;
+}
+.contact-image li{
+    padding: 32px auto;
+}
+
+
+
+@media screen and (max-width:576px){
+    .navbar{
+        margin:0px;
+        ;
+        
+    }
+
+    .nav-tiitle{
+        display: none;
+    }
+   .menubar li{
+    display: none;
+    
+   } 
+   .three-menu{
+    display: block;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: auto;
+   }
+   .btn-primary{
+    display: none;
+   }
+   .banner{
+    margin-left: 16px ;
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .banner-image{
+    width: 333px;
+    height: 413px;
+   }
+   .banner-title{
+    font-size: 36px;
+    width: 357px;
+    height: 120px;
+   }
+   .text-info{
+    text-align: center;
+    justify-content: center;
+   }
+   .curriculum{
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: auto;
+
+   }
+   .curriculum-card{
+    height: 1200px;
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+
+   }
+   .curriculum-card-1{
+    width: 200px;
+    height: 550px;
+    padding: 28px 36px;
+   }
+   
+  
+   
+}
+.curriculum-card-2{
+    width: 200px;
+    height: 550px;
+    padding: 28px 36px;
+   }
+   
+   .curriculum-card-3{
+    width: 200px;
+    height: 550px;
+    padding: 28px 36px;
+   }
+   .button-container{
+    display: hide;
+    visibility: hidden;
+   }
+   .stories{
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: auto;
+    width: 390px;
+
+   }
+   .main-story-1{
+   
+        display: none;
+      }
+   .rest-stories{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+   .main-story-2{
+    width: 120px;
+    height: 120px;
+   }
