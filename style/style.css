@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* shared styles */
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.display-flex{
+    display: flex;
+
+}
+
+.navbar{
+    margin: 0 140px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+
+height: 50px;
+  margin-right: 10px;
+}
+.nav-tiitle{
+    font-size: 32px;
+    font-weight: 700;
+}
+.menu ul{
+    display: flex;
+    justify-content:center;
+  }
+  .menu{
+    width: 387px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+.menubar li{
+    display: grid;
+   grid-template-columns: repeat(4,1fr);
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items-1 a{
+    
+        text-decoration: none;
+        color: #FEA301;
+        font-size: 20px;
+}
+.nav-items-2 a{
+    
+    text-decoration: none;
+    color: #01ACFD;
+    font-size: 20px;
+}
+.nav-items-3 a{
+    
+    text-decoration: none;
+    color: #05D4DF;
+    font-size: 20px;
+}
+.nav-items-4 a{
+    
+    text-decoration: none;
+    color: #5D58EF;
+    font-size: 20px;
+}
+ .btn-primary{
+    background-color: #FEA301;
+    color: white;
+    width: 197px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border: none;
+    margin: auto;
+    
+    
+}
