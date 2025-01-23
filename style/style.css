@@ -541,11 +541,7 @@ height: 50px;
     height: 550px;
     padding: 28px 36px;
    }
-   
-  
-   
-}
-.curriculum-card-2{
+   .curriculum-card-2{
     width: 200px;
     height: 550px;
     padding: 28px 36px;
@@ -564,18 +560,22 @@ height: 50px;
     margin-top: 20px;
     margin-left: 16px;
     margin-right: auto;
-    width: 390px;
 
    }
    .main-story-1{
    
         display: none;
+       
       }
-   .rest-stories{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+      .rest-stories {
+        margin-left: 0px;
+    display: block;
+    grid-template-rows: repeat(2,1fr);
+    width: 350px;
+    height: 770px;
+   
    }
-   .main-story-2{
-    width: 120px;
-    height: 120px;
-   }
+   
+  
+   
+}
